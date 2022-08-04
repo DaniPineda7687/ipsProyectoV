@@ -16,7 +16,9 @@
 <body>
     <header>
         <div class="logo-container">
-            <img src="https://gruposanar.com.co/imagenes/logo5.png" alt="logo-ips-grupo-sanar" srcset="">
+            <a href="index.html">
+                <img src="https://gruposanar.com.co/imagenes/logo5.png" alt="logo-ips-grupo-sanar" srcset="">
+            </a>
         </div>
         <div class="menu-content">
             <a href="#" class="menu__toggle">
@@ -24,19 +26,19 @@
             </a>
             <nav class="nav-container">
                 <ul>
-                    <li class="nav__item"><a href="" class="nav__link">Inicio</a></li>
+                    <li class="nav__item"><a href="#home" class="nav__link">Inicio</a></li>
                     <li class="nav__item"><a href="#section-trabajo" class="nav__link">Nuestro trabajo</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Características</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Servicios</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Contactos</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Política de privacidad</a></li>
+                    <li class="nav__item"><a href="#section-caracteristicas" class="nav__link">Características</a></li>
+                    <li class="nav__item"><a href="#section-servicios" class="nav__link">Servicios</a></li>
+                    <li class="nav__item"><a href="#section-nosotros" class="nav__link">Nosotros</a></li>
+                    <li class="nav__item"><a href="#section-contacto" class="nav__link">Contactos</a></li>
                     <li class="nav__item"><a href="" class="nav__link">Empresas</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="home">
+        <section class="home" id="home">
             <section class="carousel-home">
                     <div id="carouselHomeIndicators" class="carousel slide" data-ride="carousel"> 
                         <div class="carousel-indicators">
@@ -167,7 +169,7 @@
                   </div>
             </div>
         </section>
-        <section class="caracteristicas">
+        <section class="caracteristicas" id="section-caracteristicas">
             <h2 class="title-section">Características</h2>
             <p class="section-description">Nuestra experiencia profesional está orientada a lograr una Atención óptima al recurso más valioso, Usted.</p>
             
@@ -201,7 +203,7 @@
                 </article>
             </section>
         </section>
-        <section class="servicios">
+        <section class="servicios" id="section-servicios">
             <h2 class="title-section">Nuestros servicios empresariales</h2>
             <p>Con el Plan Área Protegida, cuentas con servicios que protegen a todos los empleados, proveedores, clientes y visitantes de tu empresa.</p>
             <p>Tu empresa contará con:</p>
@@ -275,7 +277,7 @@
                 </article>
             </div>
         </section>
-        <section class="nosotros">
+        <section class="nosotros" id="section-nosotros">
             <h2 class="title-section">Nosotros</h2>
             <p>Somos Un Equipo de Profesionales Altamente Calificados, comprometidos en brindarle Soluciones en el Área de Su Salud
             </p>
@@ -327,11 +329,100 @@
                 </article>
             </div>
         </section>
-        <section class="parallax-container">
-            <p>SIÉNTASE PROTEGIDO LAS 24 HORAS DEL DÍA, LOS 7 DÍAS DE LA SEMANA</p>
-            <img src="/resources/icons/heart.png" alt="">
+        <section class="parallax-section">
+            <div class="parallax-container">
+
+            </div>
+            <div class="content-parallax">
+                <p>SIÉNTASE PROTEGIDO LAS 24 HORAS DEL DÍA, LOS 7 DÍAS DE LA SEMANA</p>
+                <img src="/resources/icons/heart.png" alt="">
+            </div>
         </section>
+        <section class="contact" id="section-contacto">
+            <h2 class="title-section">Comuniquese con nosotros</h2>
+            <p>No dude en comunicarse con nosotros, complacidamente atenderemos todas sus dudas.</p>
+            <div class="contact-container">
+
+                <article class="informacion-contacto">
+                    <h3>Información de contacto</h3>
+                    <div class="first">
+                        <i class="bi bi-house-heart-fill"></i>
+                        <p>Sede Centro: Carrera 12 No. 8-51 B Centro, Frente al Parque Principal. Puerto Gaitan Meta</p>
+                    </div>
+                    <div class="contact-info">
+                        <p>Sede Palmas:Calle 16 # 9 - 70 Puerto Gaitán, Meta</p>
+                    </div>
+                    <div class="contact-info">
+                        <p>Laboratorio: Carrera 13# 13-14 Frente a la Avenida Nacional Puerto Gaitán, Meta</p>
+                    </div>
+                    <div class="first">
+                        <i class="bi bi-telephone-outbound-fill"></i>
+                        <p>Contacto Sede Centro 317 400-3198</p>
+                    </div>
+                    <div class="contact-info">
+                        <p>Contacto Laboratorio 317 261-3851</p>
+                    </div>
+                    <div class="contact-info">
+                        <p>Contacto Ocupacionales 318 714-5037</p>
+                    </div>
+                    <div class="contact-info">
+                        <p>Atencion al Usuario 317 4003198</p>
+                    </div>
+                    <div class="contact-info">
+                        <p>PBX 6019191099</p>
+                    </div>
+                    <div class="first">
+                        <i class="bi bi-envelope-fill"></i>
+                        <p>gerencia@gruposanar.com.co</p>
+                    </div>
+                    <div class="first">
+                        <i class="bi bi-envelope-fill"></i>
+                        <p>administrativo@gruposanar.com.co</p>
+                    </div>
+                    <div class="first">
+                        <i class="bi bi-envelope-fill"></i>
+                        <p>atencionalusuario@gruposanar.com.co</p>
+                    </div>
+                    <div class="first">
+                        <i class="bi bi-envelope-fill"></i>
+                        <p>labmolecular@gruposanar.com.co</p>
+                    </div>
+                    <div class="first">
+                        <i class="bi bi-globe"></i>
+                        <a href="#">www.gruposanar.com.co</a>
+                    </div>
+                </article>
+                <article class="form-contact-container">
+                    <h3>Contactenos</h3>
+                    <form action="">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="correo" placeholder="Correo">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="telefono" placeholder="Telefono">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="mensaje" rows="8" placeholder="Mensaje"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <input type="submit" value="Enviar" class="btn btn-outline-success">
+                        </div>
+                    </form>
+                </article>
+            </div>
+        </section>
+        <footer>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.6314004286685!2d-72.07987371194706!3d4.311841737112327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e14854b979809d5%3A0x643a01b18223b1de!2sGrupo+Preferencial+Sanar!5e0!3m2!1ses!2sco!4v1530225329427"  frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </footer>
     </main>
+    <div class="wpp-container">
+        <a href=""><i class="bi bi-whatsapp"></i></a>
+    </div>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="/scripts/main.js"></script>
