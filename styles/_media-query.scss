@@ -1,0 +1,127 @@
+@media screen and (min-width:1550px) {
+    .home .carousel-inner{
+        height: 80vh;
+    }
+    .menu__toggle {
+        display: none;
+    }
+
+    .nav-container {
+        display: flex;
+        align-items: center;
+        width: max-content;
+        max-height: $heading-height;
+        position: static;
+    }
+
+    .nav-container ul {
+        display: flex;
+    }
+
+    .nav-container ul li {
+        display: block;
+        width: 190px;
+        text-align: center;
+    }
+
+    .nav-container ul li a {
+        position: relative;
+    }
+
+    .nav-container ul li a::before {
+        content: "";
+        display: block;
+        width: 150px;
+
+        height: 3px;
+        background-color: #D5B9B7;
+        position: absolute;
+        top: -4px;
+        left: calc(50% - 75px);
+        transition: all .4s;
+    }
+    .nav-container ul li a:hover::before {
+        background-color: #E92436;
+    }
+
+    .nav-container ul li a:hover{
+        color: #E92436;
+    }
+
+    .card {
+        height: 470px;
+    }
+
+    .carousel-img-container {
+        max-height: 600px;
+
+        div {
+
+            img {
+                height: 600px;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+
+    .informacion-nosotros {
+        h2 {
+            font-size: 4.6rem;
+        }
+    }
+
+    .nuestro-trabajo {
+        h2 {
+            font-size: 4.6rem;
+        }
+    }
+
+    .nosotros {
+        h2 {
+            font-size: 4.6rem;
+        }
+    }
+    .caracteristicas{
+        h2{
+            font-size: 4.6rem;
+        }
+    }
+    .servicios{
+        h2{
+            font-size: 4.6rem;
+        }
+    }
+    .contact{
+        h2{
+            font-size: 4.6rem;
+        }
+    }
+    .home-nosotros-content{
+        h2{
+            font-size: 4.6rem;
+        }
+    }
+    .home-otros-trabajos-content{
+        h2{
+            font-size: 4.6rem;
+        }
+    }
+}
+@media screen and (min-width:432px) {
+    .card-caracteristica{
+        .content-card-caracteristica{
+            height: 90px;
+        }
+    }
+}
+@media screen and (min-width:900px) {
+    .equipo-container{
+        gap: 6vw;
+    }
+    .content-parallax{
+        p{
+            font-size: 4.5rem;
+        }
+    }
+}
