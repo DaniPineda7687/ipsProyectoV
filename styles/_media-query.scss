@@ -1,0 +1,124 @@
+@media screen and (min-width:867px) {
+    header{
+        padding: 0;
+    }
+    .home .carousel-inner{
+        height: 80vh;
+    }
+    .logo-container{
+        display: flex;
+        align-items: center;
+        width: 130px;
+    }
+    .menu__toggle {
+        display: none;
+    }
+
+    .nav-container {
+        display: flex;
+        align-items: center;
+        width: max-content;
+        max-height: $heading-height;
+        position: static;
+        margin-right: 2rem;
+    }
+
+    .nav-container ul {
+        display: flex;
+        gap: 2vw;
+    }
+
+    .nav-container ul li {
+        text-align: center;
+        padding: 0;
+        font-size: 1.6rem;
+    }
+
+    .nav-container ul li a {
+        position: relative;
+    }
+    .nav-container ul li a:hover {
+        color: $primary-color;
+    }
+    .card {
+        height: 470px;
+    }
+
+    .carousel-img-container {
+        max-height: 600px;
+
+        div {
+
+            img {
+                height: 600px;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+
+    .informacion-nosotros {
+        h2 {
+            font-size: 4.6rem;
+        }
+    }
+
+    .nuestro-trabajo {
+        h2 {
+            font-size: 4.6rem;
+        }
+    }
+
+    .nosotros {
+        h2 {
+            font-size: 4.6rem;
+        }
+    }
+    .caracteristicas{
+        h2{
+            font-size: 4.6rem;
+        }
+    }
+    .servicios{
+        h2{
+            font-size: 4.6rem;
+        }
+    }
+    .contact{
+        h2{
+            font-size: 4.6rem;
+        }
+    }
+    .home-nosotros-content{
+        h2{
+            font-size: 4.6rem;
+        }
+    }
+    .home-otros-trabajos-content{
+        h2{
+            font-size: 4.6rem;
+        }
+    }
+}
+
+@media screen and (min-width:432px) {
+    .card-caracteristica{
+        .content-card-caracteristica{
+            height: 90px;
+        }
+    }
+}
+@media screen and (min-width:900px) {
+
+    .equipo-container{
+        gap: 6vw;
+    }
+    .content-parallax{
+        p{
+            font-size: 4.5rem;
+        }
+    }
+    .nav-container ul li {
+        font-size: 1.6rem;
+    }
+}
