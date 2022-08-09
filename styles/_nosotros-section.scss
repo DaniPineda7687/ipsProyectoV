@@ -1,0 +1,119 @@
+.nosotros {
+    width: 100%;
+    margin-top: -8rem;
+    text-align: center;
+    height: max-content;
+    padding: 2rem 1.6rem 2rem 1.6rem;
+    background-color: #E92436;
+    color: #ffffff;
+    h2 {
+        color: #ffffff;
+    }
+
+    p {
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.equipo-container {
+    display: flex;
+    justify-content: center;
+    gap: 12vw;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+}
+
+.miembro-card {
+    background-color: #ffffff;
+    width: 370px;
+    min-width: 315px;
+    height: 470px;
+    text-align: center;
+    box-shadow: 0px 9px 11px 4px rgba(0, 0, 0, 0.1), -8px -8px 11px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8rem;
+    border-radius: 20px;
+    transition: all .4s;
+    .image-profile {
+        img {
+            border-radius: 50%;
+            max-width: 100%;
+            height: 250px;
+            /*border-top-left-radius: 20px;
+            border-top-right-radius: 20px;*/
+            margin-top: .8rem;
+            margin-bottom: .8rem;
+        }
+    }
+    .content-card-member{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        color: #000000;
+    }
+}
+
+.miembro-card:hover {
+    transform: scale(1.05);
+    transition: all .4s;
+
+    .content-card-member {
+        background-color: #3E3F3C;
+        color: #ffffff;
+
+    }
+
+    .footer-card-member a {
+        background-color: #2b2b2b;
+    }
+
+    .wpp {
+        color: #25D366;
+    }
+
+    .mail {
+        color: #E92436;
+    }
+
+    .face {
+        color: #3b5998;
+    }
+}
+
+.content-card-member {
+    background-color: #ffffff;
+    text-align: left;
+    padding: .8rem 2rem 2rem .8rem;
+    color: #ffffff;
+    transition: all .4s;
+
+    .nombre {
+        margin-bottom: 2rem;
+    }
+
+    .descripcion {
+        text-align: justify;
+        height: 144px;
+    }
+}
+
+.footer-card-member {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 2.5rem;
+
+    a {
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: #c62835;
+        border-radius: 50%;
+
+    }
+}
